@@ -54,6 +54,7 @@ export default function Index() {
         />
       </View>
 
+
       <ScrollView>
         {news?.length > 0 ? (
           news.map((article, index) => (
